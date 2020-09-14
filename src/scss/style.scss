@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+     background-color: grey;
+    color: white;
+    height: 2em;
+    padding-top: 1em;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+section#fire_bg {
+    height: 20rem;
+    text-align: center;
+    background-image:url(../img/welcome.jpg) ;
+
+    h1 {
+        font-size: 60px;
+        margin-top: 0;
+        padding-top: 2em;
+        color:white;
+    }
+    p {
+        color: white;
+    }
+}
+
+.content_width {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+section#plot {
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    background-color: lightgray;
+
+    div.plot content_width {
+
+        div.dark {
+            display: flex;
+        flex-wrap: wrap;
+        padding-left: 1em;
+
+        h2 {
+            padding-left: 4em;
+        }
+        p {
+           padding-top: 3em; 
+        }
+        }
+    }
+
+
+}
+
+.dark{
+    padding-left: 1em;
+}
+.dark h2 {
+    padding-left: 4em;
+}
+
+.dark p {
+    padding-top: 2em;
+}
+
+
+div.plot.content_width {
+    display: flex;
+    flex-direction: row;
+
+    .contain {
+        max-width: 40%;
+        text-align:end;
+        padding-top: 6em;
+        vertical-align:baseline;
+
+        img {
+            height:90%;
+            }
+        }
+}
+
+section#Characters {
+    width: 100%;
+    height: 20rem;
+    background-image: url(../img/rey-standing.jpg);
+    background-position: 50% 30%;
+    display: flex;
+    flex-direction: column;
+}
+#Characters h2 {
+    text-align: center;
+
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    text-align: center;
+    padding-left:20em;
+    padding-top: 10em;
+
+    .e1{
+    height:40% ;
+    width:30px ;
+    border-radius: 50%;
+    background-image: url(../img/luke.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 3%;
+    
+    
+    }
+
+    .e2{
+      height:60% ;
+    width:50px ;
+    border-radius: 50%;
+    background-image: url(../img/leia.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 2%;
+    }  
+    
+    .e3{
+    height:80% ;
+    width:60px ;
+    border-radius: 50%;
+    background-image: url(../img/finn.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 1%;
+    }
+
+    .e4 {
+    height: 100%;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url(../img/rey.jpg);
+    background-size: 80%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    
+    }
+
+    .e5 {
+        height:80% ;
+    width:60px ;
+    border-radius: 50%;
+    background-image: url(../img/kylo.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 1%;
+    }
+
+    .e6 {
+        height:60% ;
+    width:50px ;
+    border-radius: 50%;
+    background-image: url(../img/poe.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 2%;
+    }
+
+    .e7 {
+        height:40% ;
+    width:30px ;
+    border-radius: 50%;
+    background-image: url(../img/bb8.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1em;
+    margin-top: 3%;
+    }
+
+}
+
+
+
